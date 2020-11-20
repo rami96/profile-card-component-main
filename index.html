@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,6 +18,43 @@
   </style>
 </head>
 <body>
+  <div id="main">
+    <img id="bg-pattern-top" src="images/bg-pattern-top.svg" alt="">
+    <img id="bg-pattern-bottom" src="images/bg-pattern-bottom.svg" alt="">
+    <div id="container">
+      <div id="cover">
+        <img src="./images/bg-pattern-card.svg" alt="cover">
+      </div>
+      <div id="profile">
+        <img src="./images/image-victor.jpg" alt="Victor">
+      </div>
+      <div id="info">
+        <div id="nameAndAge">
+          <p id="name">Victor Crest</p>
+          <p id="age">26</p>
+        </div>
+        <div id="city">
+          <p id="cityName">London</p>
+        </div>
+        <div id="account">
+          <div id="holders">
+            <div id="holder">
+              <p class="numberOf">80K</p>
+              <p class="nameOf">Followers</p>
+            </div>
+            <div id="holder">
+              <p class="numberOf">803K</p>
+              <p class="nameOf">Likes</p>
+            </div>
+            <div id="holder">
+              <p class="numberOf">1.4K</p>
+              <p class="nameOf">Photos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   Victor Crest
   26
   London

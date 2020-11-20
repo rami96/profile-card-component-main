@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+/********************   Background   ********************/
+
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(185, 75%, 39%);
+    position: absolute;
+    overflow: hidden;
+}
+
+#bg-pattern-top{
+    position: relative;
+    top: -30rem;
+    left: -20rem;
+}
+
+#bg-pattern-bottom{
+    position: absolute;
+    bottom: -30rem;
+    right: -20rem;
+}
+
+/********************   Container   ********************/
+
+#container{
+    height: 23rem;
+    width: 21rem;
+    border-radius: 13px;
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/********************   Cover Picture   ********************/
+
+#cover{
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/********************   Profile Picture   ********************/
+
+#profile{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+    border: 5px solid white;
+}
+
+/********************   Informations   ********************/
+
+#info{
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#nameAndAge{
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    display: flex;
+    gap: .5rem;
+    font-weight: 700;
+}
+#age{
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+#city{
+    margin-top: .5rem;
+    color: hsl(227, 10%, 46%);
+}
+
+/********************   Account Numbers   ********************/
+
+#account{
+    position: absolute;
+    bottom: 0px;
+    border-top: 2px solid hsl(0, 0%, 83%);
+    height: 5.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#holders{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+#holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 3rem;
+}
+.numberOf{
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+.nameOf{
+    margin-top: .3rem;
+    font-size: 12px;
+    color: hsl(227, 10%, 46%);
+}
+
+
+@media (max-width:1155px){
+    #bg-pattern-top{
+        position: relative;
+        top: -30rem;
+        left: -40rem;
+    }
+    
+    #bg-pattern-bottom{
+        position: absolute;
+        bottom: -30rem;
+        right: -40rem;
+    }
+}
+@media (max-width:547px){
+    #bg-pattern-top{
+        position: relative;
+        top: -30rem;
+        left: -50rem;
+    }
+    
+    #bg-pattern-bottom{
+        position: absolute;
+        bottom: -30rem;
+        right: -50rem;
+    }
+}
